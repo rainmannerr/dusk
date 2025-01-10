@@ -590,24 +590,10 @@
 
 <body data-sveltekit-preload-code="viewport" data-sveltekit-preload-data="hover">
   <div id="outer-container">
-    <script>
-      {
-        __sveltekit_1is2ihh = {
-          base: new URL("..", location).pathname.slice(0, -1),
-          assets: "/wallet"
-        };
-        const element = document.currentScript.parentElement;
-        Promise.all([
-          import("../_app/immutable/entry/start.BMqD-4bz.js"),
-          import("../_app/immutable/entry/app.DUs8GSJ5.js")
-        ]).then(([kit, app]) => {
-          kit.start(app, element);
-        });
-      }
-    </script>
+
     <main class="app svelte-3y7xzm">
       <h1 class="sr-only">Dusk Web Wallet</h1>
-      <header><img width="129" height="31" alt="Dusk Logo" src="/wallet/dusk_logo.svg"></header>
+      <header><img width="129" height="31" alt="Dusk Logo" src="/dusk_logo.svg"></header>
       <section class="login svelte-1e8gc2s">
         <h2 class="h1">Unleash <mark>RWA</mark> and<br> <mark>Decentralized Finance</mark></h2>
         <div class="login svelte-1e8gc2s">
@@ -627,7 +613,7 @@
             </div>
           </article>
         </div>
-        <footer class="login-footer svelte-1e8gc2s"><a aria-disabled="false" class="dusk-anchor dusk-anchor--on-surface dusk-anchor-button dusk-anchor-button--variant--tertiary dusk-anchor-button--size--default dusk-icon-button--labeled" href="/wallet/setup"><svg class="dusk-icon dusk-icon--size--default dusk-anchor-button__icon" role="graphics-symbol" viewBox="0 0 24 24">
+        <footer class="login-footer svelte-1e8gc2s"><a aria-disabled="false" class="dusk-anchor dusk-anchor--on-surface dusk-anchor-button dusk-anchor-button--variant--tertiary dusk-anchor-button--size--default dusk-icon-button--labeled" href="../index.html"><svg class="dusk-icon dusk-icon--size--default dusk-anchor-button__icon" role="graphics-symbol" viewBox="0 0 24 24">
               <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
             </svg> <span class="dusk-anchor-button__text">Back</span></a></footer>
       </section>
